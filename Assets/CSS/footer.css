@@ -1,0 +1,162 @@
+body > footer
+{
+  background: black;
+  padding-top: 1em;
+  
+  color: white;
+  
+  flex-shrink: 0;
+  
+  width: 100%;
+  
+  display: flex;
+  align-content: center;
+  
+  flex-direction: column;
+}
+
+body > footer > div
+{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+body > footer > div > nav
+{
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+body > footer > div > nav > section h1
+{
+  margin-bottom: .125em;
+  font-weight: bold;
+  text-align: left;
+}
+
+body > footer > div > nav > section
+{  
+}
+
+body > footer > div > nav > section ul
+{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;  
+  text-align: center;
+}
+
+body > footer > div > nav > section ul li
+{
+  text-align: left;
+  font-size: 0.8em;
+}
+
+body > footer > div > nav > section ul li a
+{
+  color: silver;
+  text-decoration: none;
+}
+
+body > footer > div > nav > section ul li a:link
+{
+  color: silver;
+}
+
+body > footer > div > nav > section ul li a:hover
+{  
+  color: white;
+}
+
+body > footer > div > p
+{
+  text-align: center;
+}
+
+body > footer > div > nav > ul
+{
+}
+
+body > footer > div > nav > ul li
+{
+  display: inline;
+}
+
+body > footer > div > nav > ul li a
+{
+  color: silver;
+  text-decoration: none;
+}
+
+body > footer > div > nav > ul li a:link
+{
+  color: silver;
+}
+
+body > footer > div > nav > ul li a:hover
+{
+  color: white;
+}
+
+body > footer > div > nav > ul li a > span
+{
+  line-height: 1em !important;
+}
+
+footer > div > div
+{
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  padding-bottom: 1em;
+}
+
+footer > div > div > div 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+footer > div > div >  nav
+{
+}
+
+footer > div > div > nav > ul
+{
+  margin: 0;
+  padding: 0;
+}
+
+footer > div > div > nav > ul li
+{
+  display: inline;
+}
+
+footer > div > div > nav > ul li a
+{
+  color: silver;
+  text-decoration: none;
+}
+
+footer > div > div > nav > ul li a:link
+{
+  
+  color: silver;
+}
+
+footer > div > div > nav > ul li a:hover
+{
+  color: white;
+}
+
+footer > div > div > nav > ul li a > span
+{
+  line-height: 1em !important;
+}
+
+
+
+
